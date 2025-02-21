@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fireabse-Authentication</title>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="forms-out">
+        <div class="forms-in">
+            <div id="registration-page" class="hide">
+                <h1 id="logo">Stark Industries</h1>
+                <h3>Sign Up</h3>
+                Email <br />
+                <input type="email" id="registration-email" /><br />
+                Password <br />
+                <input type="password" id="registration-password" /><br />
+                Confirm Password <br />
+                <input type="password" id="registration-repassword" /><br />
+                NickName <br />
+                <input type="text" id="registration-nickname" /><br />
+                <center><button id="register">Sign Up</button></center>
+                <div id="new-account">Already have Account?</div>
+                <button id="show-login">Sign In</button>
+            </div>
+
+            <div id="login-page">
+                <h1 id="logo">Stark Industries</h1>
+                <h3>Sign In</h3>
+                Email <br />
+                <input type="email" id="login-email" /><br />
+                Password <br />
+                <input type="password" id="login-password" /><br />
+                <!-- <p id="forgot-password">Forgot Password</p> -->
+                <center><button id="login">Sign In</button></center>
+                <div id="new-account">Create new Account</div>
+                <button id="show-register">Sign Up</button>
+            </div>
+
+            <div id="homepage" class="hide">
+                <h1 id="logo">Welcome to<br>Stark Industries</h1>
+                <h3>Logged In as <span id="userMail" style="font-style: italic;"></span></h3>
+                <div id="id-token">idToken: </div>
+                <button id="signout">Sign Out</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use-->
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-auth.js"></script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

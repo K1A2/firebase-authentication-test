@@ -1,0 +1,137 @@
+body {
+    overflow-y: scroll;
+}
+
+.forms-out {
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    font-family: "Fira Sans", sans-serif;
+    padding: 15px 0;
+}
+
+.forms-in {
+    width: 93%;
+    margin: 0 auto;
+    color: black;
+    padding: 15px 0;
+}
+
+.forms-in div {
+    border: 2px solid black;
+    padding: 30px 20px;
+    max-width: 350px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.forms-in h3 {
+    text-align: center;
+}
+
+.forms-in input {
+    /* border: none; */
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.forms-in button {
+    border: 2px solid black;
+    background-color: white;
+    padding: 7px 20px;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.forms-in button:hover {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+#forgot-password {
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#forgot-password:hover {
+    opacity: 0.7;
+}
+
+#show-register {
+    border: none;
+    text-decoration: underline;
+    background-color: transparent;
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+#new-account {
+    margin: 20px 0 0;
+    padding: 0;
+    text-align: center;
+    border: none;
+}
+
+#register {
+    font-style: inherit;
+    font-size: inherit;
+}
+
+#login {
+    border: 2px solid black;
+    background-color: white;
+}
+
+#login:hover {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+#logo {
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-style: italic;
+}
+
+#signout {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#show-login {
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-decoration: underline;
+    border: none;
+}
+
+#show-login:hover {
+    background-color: transparent;
+    color: black;
+}
+
+#id-token {
+    overflow: auto;
+    word-break: break-all;
+}
