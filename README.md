@@ -1,4 +1,3 @@
-# Firebase-Authentication
+# Firebase Auth Test
 
-This is authentication project using Firebase. Test the website by accesing following link ------>
-https://geetsalame.github.io/Firebase-Authentication/
+firebase auth 테스트하는 웹페이지
